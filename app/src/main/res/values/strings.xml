@@ -13,4 +13,8 @@
     <string name="login_activity_nao_tem_uma_conta">Não tem uma conta?</string>
     <string name="login_activity_criar_uma_conta_agora">Criar uma conta agora</string>
     <string name="login_activity_desenvolvido_by_theves">Theves</string>
+    <string name="trocar_foto">Trocar foto</string>
+    <string name="dados_para_autenfica_o">Dados para autenficação</string>
+    <string name="dados_pessoais">Dados Pessoais</string>
+    <string name="sexo">Sexo</string>
 </resources>
