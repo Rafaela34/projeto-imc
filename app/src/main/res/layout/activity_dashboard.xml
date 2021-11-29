@@ -24,27 +24,29 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ines"
+                android:src="@drawable/adam"
                 android:scaleType="centerCrop"/>
 
         </androidx.cardview.widget.CardView>
 
         <TextView
+            android:id="@+id/edit_nome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Inês Brasil"
             android:layout_gravity="center"
+            android:text="Adam Gontier"
             android:textColor="@color/white"
             android:textSize="22sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/edit_profissao"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Atriz"
             android:layout_gravity="center"
+            android:text="Musico"
             android:textColor="@color/white"
-            android:textSize="15sp"/>
+            android:textSize="15sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -73,6 +75,7 @@
                 android:textStyle="bold"/>
 
             <TextView
+                android:id="@+id/edit_novo_altura"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
